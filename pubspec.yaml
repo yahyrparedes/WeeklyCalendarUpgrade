@@ -2,6 +2,7 @@ name: weekly_calendar_upgrade
 description: "Effortlessly integrate this straightforward weekly calendar widget into your Flutter app for a seamless user experience. Fork WeeklyCalendar :3"
 homepage: https://github.com/yahyrparedes/WeeklyCalendarUpgrade
 version: 0.0.2
+publish_to: 'https://pub.dev'
 
 environment:
   sdk: ^3.8.1
