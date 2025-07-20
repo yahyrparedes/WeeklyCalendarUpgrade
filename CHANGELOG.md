@@ -1,6 +1,6 @@
 ## 0.0.2
 
-*  Rename de main file from weekly_calendar_upgrade.dart to weekly_calendar.dart. For easy migrate.
+*  Update readme for easy migrate.
 
 ## 0.0.1
 

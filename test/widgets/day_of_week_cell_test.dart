@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:intl/date_symbol_data_local.dart';
 import 'package:weekly_calendar_upgrade/src/widgets/day_of_week_cell.dart';
-import 'package:weekly_calendar_upgrade/weekly_calendar.dart';
+import 'package:weekly_calendar_upgrade/weekly_calendar_upgrade.dart';
 
 void main() {
   Widget setupTestWidget(Widget child) {

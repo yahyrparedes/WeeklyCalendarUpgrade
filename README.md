@@ -1,7 +1,59 @@
 # Weekly Calendar Upgrade 
 
 > This project is a fork of the project **WeeklyCalendar** to which we provide an upgrade so you can use it in the latest version of Flutter SDK and Dart, remember that the update is up to you.
- 
+
+### This package supports the latest version of Flutter SDK and Dart.
+> And it is compatible with the latest version of the package [weekly_calendar](https://pub.dev/packages/weekly_calendar).
+> This package is a simple upgrade of the `weekly_calendar` package, which provides a weekly calendar widget for Flutter.
+> Upgrade from `weekly_calendar` to `weekly_calendar_upgrade`
+> Technically, this package is support upgrade to android 36.
+
+# How to use this package
+
+To use this package, you can add the following line to your `pubspec.yaml`:
+
+```yaml
+dependencies:
+  weekly_calendar_upgrade: ^0.0.2 # or the latest version
+```
+
+* If you are using the `weekly_calendar` package, you can migrate to this package by replacing the dependency in your `pubspec.yaml` file:
+
+```yaml
+dependencies:
+  weekly_calendar: ^0.1.2 # or the latest version
+  weekly_calendar_upgrade: ^0.0.2 # or the latest version
+```
+
+* And replace your import statementsfrom:
+
+```dart
+import 'package:weekly_calendar/weekly_calendar.dart';
+```
+
+with:
+
+```dart
+import 'package:weekly_calendar_upgrade/weekly_calendar_upgrade.dart';
+```
+
+And then, you can run `flutter pub get` to install the package.
+Other changes read the documentation.
+
+## Happy Coding!
+
+
+
+Then, you can import it in your Dart code:
+
+```dart
+
+# Weekly Calendar Upgrade
+
+[![pub package](https://img.shields.io/pub/v/weekly_calendar_upgrade.svg)](https://pub.dev/packages/weekly_calendar_upgrade)
+
+
+
 ----------------------------------------
 
 ## WeeklyCalendar
@@ -33,7 +85,7 @@ dependencies:
 ### Basic setup
 
 ```dart
-import 'package:weekly_calendar/weekly_calendar.dart';
+import 'package:weekly_calendar/weekly_calendar_upgrade.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
