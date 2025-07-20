@@ -42,18 +42,10 @@ Other changes read the documentation.
 
 ## Happy Coding!
 
-
-
-Then, you can import it in your Dart code:
-
-```dart
-
-# Weekly Calendar Upgrade
+### Weekly Calendar Upgrade
 
 [![pub package](https://img.shields.io/pub/v/weekly_calendar_upgrade.svg)](https://pub.dev/packages/weekly_calendar_upgrade)
-
-
-
+ 
 ----------------------------------------
 
 ## WeeklyCalendar
