@@ -3,7 +3,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:weekly_calendar_upgrade/src/widgets/day_cell.dart';
-import 'package:weekly_calendar_upgrade/weekly_calendar_upgrade.dart';
+import 'package:weekly_calendar_upgrade/weekly_calendar.dart';
 
 void main() {
   Widget setupTestWidget(Widget child) {

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:weekly_calendar_upgrade/weekly_calendar_upgrade.dart';
+import 'package:weekly_calendar_upgrade/weekly_calendar.dart';
 
 void main() async {
   runApp(const MyApp());
